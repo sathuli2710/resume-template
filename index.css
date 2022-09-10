@@ -21,6 +21,7 @@ body {
 }
 
 .social-icons {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   gap: 5px;
@@ -79,6 +80,7 @@ body {
 }
 
 .action-btns > button {
+  cursor: pointer;
   padding: 10px 15px;
   border-radius: 20px;
   border: none;
