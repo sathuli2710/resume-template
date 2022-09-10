@@ -12,9 +12,6 @@ body {
 }
 
 .app {
-  /* margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2rem; */
   margin: 2rem 10% 30px 10%;
 }
 
@@ -124,7 +121,13 @@ hr{
   margin-top: 40px;
 }
 
+.personal-info{
+  overflow: hidden;
+}
+
 .personal-info > table {
+  table-layout: fixed;
+  width: 100%;
   border-spacing: 10px;
 }
 
@@ -133,9 +136,7 @@ hr{
 }
 
 .personal-info > table > tbody > tr > td:nth-child(2){
-  width: 200px;
   word-wrap: break-word;
-  overflow: hidden;
 }
 
 .resume-detail-bottom {
