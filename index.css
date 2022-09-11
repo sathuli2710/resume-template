@@ -12,7 +12,7 @@ body {
 }
 
 .app {
-  margin: 2rem 10% 30px 10%;
+  margin: 2rem 10%;
 }
 
 .top {
@@ -21,13 +21,13 @@ body {
 }
 
 .social-icons {
-  cursor: pointer;
   display: flex;
   justify-content: center;
   gap: 5px;
 }
 
 .social-icons>div>img{
+  cursor: pointer;
   height: 30px;
   width: 30px;
   overflow: hidden;
@@ -93,7 +93,7 @@ body {
   background-color: rgb(13, 194, 64);
 }
 
-.resume-deatil{
+.resume-detail{
   height: 65%;
   background-color: #fff;
   border-radius: 0px 0px 10px 10px;
@@ -103,12 +103,6 @@ body {
   padding: 80px 20px 50px 10%;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-}
-
-hr{
-  background-color: rgb(220, 220, 220);
-  height: 1px;
-  border: none;
 }
 
 .resume-detail-top > .about {
@@ -133,12 +127,15 @@ hr{
   border-spacing: 10px;
 }
 
-.personal-info > table > tbody > tr > td:nth-child(1) {
-  padding-right: 30px;
+.personal-info > table > tbody > tr > td:nth-child(2){
+  padding-left: 30px;
+  word-wrap: break-word;
 }
 
-.personal-info > table > tbody > tr > td:nth-child(2){
-  word-wrap: break-word;
+hr{
+  background-color: rgb(220, 220, 220);
+  height: 1px;
+  border: none;
 }
 
 .resume-detail-bottom {
@@ -162,14 +159,13 @@ hr{
 }
 
 .percentage-bar{
-  margin-right: 20%;
   width: 100%;
   height: 20px;
   background-color: #d5d4d4;
   border-radius: 5px;
 }
 
-.skills-left>.percentage-bar>div, .skills-right>.percentage-bar>div{
+.percentage-bar>div{
   border-radius: 5px 0 0 5px;
   width: 80%;
   height: 100%;
@@ -202,6 +198,25 @@ hr{
 
 .skills-right>.percentage-bar:nth-child(6)>div{
   width: 20%;
+}
+
+.submit{
+  position: relative;
+  height: 80px;
+}
+
+.submit>button{
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 40px;
+  padding: 20px 45px;
+  font-size: 15px;
+  color: #FFF;
+  background-color: rgb(13, 194, 64);
+  border: none;
+  border-radius: 50px;
 }
 
 
